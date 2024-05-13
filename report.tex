@@ -57,7 +57,7 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
@@ -69,7 +69,7 @@
 \title{Design of an R package, advanced data visualization and
 interactive web projects}
 \author{Joseph Barbier, University of Bordeaux}
-\date{Master IREF, economic risks and data science, 2022-2024}
+\date{}
 
 \begin{document}
 \maketitle
@@ -84,117 +84,129 @@ interactive web projects}
 
 \newpage
 
-\hypertarget{table-of-contents}{%
 \section{\texorpdfstring{Table of contents\\
-}{Table of contents }}\label{table-of-contents}}
+}{Table of contents }}\label{table-of-contents}
 
 \begin{itemize}
 \tightlist
 \item
-  \protect\hyperlink{acknowledgements}{Acknowledgements}\\
+  \hyperref[acknowledgements]{Acknowledgements}\\
 \item
-  \protect\hyperlink{abstract}{Abstract}\\
+  \hyperref[abstract]{Abstract}\\
 \item
-  \protect\hyperlink{introduction}{Introduction}\\
+  \hyperref[introduction]{Introduction}\\
 \item
-  \protect\hyperlink{r-package-lifelihood}{R package: Lifelihood}
+  \hyperref[r-package-lifelihood]{R package: Lifelihood}
 
   \begin{itemize}
   \tightlist
   \item
-    \protect\hyperlink{the-lifelihood-framework}{The Lifelihood
-    framework}
+    \hyperref[the-lifelihood-framework]{The Lifelihood framework}
   \item
-    \protect\hyperlink{origin-of-the-project}{Origin of the project}
+    \hyperref[origin-of-the-project]{Origin of the project}
   \item
-    \protect\hyperlink{objectives}{Objectives}
+    \hyperref[objectives]{Objectives}
   \item
-    \protect\hyperlink{implementation}{Implementation}\\
+    \hyperref[implementation]{Implementation}\\
   \end{itemize}
 \item
-  \protect\hyperlink{advanced-data-visualization}{Advanced data
-  visualization}\\
+  \hyperref[advanced-data-visualization]{Advanced data visualization}\\
 \item
-  \protect\hyperlink{interactive-web-projects}{Interactive web
-  projects}\\
+  \hyperref[interactive-web-projects]{Interactive web projects}\\
 \item
-  \protect\hyperlink{conclusion}{Conclusion}\\
+  \hyperref[conclusion]{Conclusion}\\
 \item
-  \protect\hyperlink{references}{References}
+  \hyperref[references]{References}
 \end{itemize}
 
 \newpage
 
-\hypertarget{acknowledgements}{%
-\section{Acknowledgements}\label{acknowledgements}}
+\section{Acknowledgements}\label{acknowledgements}
 
 TODO
 
 \newpage
 
-\hypertarget{abstract}{%
-\section{Abstract}\label{abstract}}
+\section{Abstract}\label{abstract}
 
 TODO
 
 \newpage
 
-\hypertarget{introduction}{%
-\section{Introduction}\label{introduction}}
+\section{Introduction}\label{introduction}
 
 TODO
 
 \newpage
 
-\hypertarget{r-package-lifelihood}{%
-\section{R package: Lifelihood}\label{r-package-lifelihood}}
+\section{R package: Lifelihood}\label{r-package-lifelihood}
 
-\hypertarget{the-lifelihood-framework}{%
-\subsection{The Lifelihood framework}\label{the-lifelihood-framework}}
+\subsection{Origin of the project}\label{origin-of-the-project}
 
 TODO
 
-\hypertarget{origin-of-the-project}{%
-\subsection{Origin of the project}\label{origin-of-the-project}}
+\subsection{The Lifelihood framework}\label{the-lifelihood-framework}
 
 TODO
 
-\hypertarget{objectives}{%
-\subsection{Objectives}\label{objectives}}
+\subsection{Objectives}\label{objectives}
 
 TODO
 
-\hypertarget{implementation}{%
-\subsection{Implementation}\label{implementation}}
+\subsection{Implementation}\label{implementation}
 
 TODO
 
 \newpage
 
-\hypertarget{advanced-data-visualization}{%
-\section{Advanced data
-visualization}\label{advanced-data-visualization}}
+\section{Data visualization}\label{data-visualization}
+
+\subsection{The Python Graph Gallery}\label{the-python-graph-gallery}
+
+\subsubsection{About}\label{about}
+
+The Python Graph Gallery, or python-graph-gallery.com, is a website that
+displays hundreds of charts made with python. It is a great resource for
+data visualization, as it provides a wide range of examples and code
+snippets to help users create their own charts. The gallery is organized
+by chart type, making it easy to find examples of the specific type of
+chart.
+
+\begin{figure}
+\centering
+\includegraphics{python_gallery.png}
+\caption{Python Graph Gallery Chart Sections}
+\end{figure}
+
+\subsubsection{Features}\label{features}
+
+\paragraph{Chart Sections}\label{chart-sections}
+
+Each section includes a various set of variation of the same chart, with
+different level of complexity. An important part of my work was to
+implement new type of charts or missing use cases.
+
+Since the website is open-source, problems/issues/missing chart types
+can be reported and fixed by the community of a website seen by
+thousands of people every day.
+
+\subsection{The R Graph Gallery}\label{the-r-graph-gallery}
+
+\newpage
+
+\section{Interactive web projects}\label{interactive-web-projects}
 
 TODO
 
 \newpage
 
-\hypertarget{interactive-web-projects}{%
-\section{Interactive web projects}\label{interactive-web-projects}}
+\section{Conclusion}\label{conclusion}
 
 TODO
 
 \newpage
 
-\hypertarget{conclusion}{%
-\section{Conclusion}\label{conclusion}}
-
-TODO
-
-\newpage
-
-\hypertarget{references}{%
-\section{References}\label{references}}
+\section{References}\label{references}
 
 TODO
 
